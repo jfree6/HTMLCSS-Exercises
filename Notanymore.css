@@ -1,0 +1,24 @@
+*{
+  color: limegreen;
+  background-color: black;
+  border-style: solid;
+  border-color: gold;
+  border-radius: 20px;
+}
+img:hover{
+  opacity: 0.75;
+}
+button:hover, input:hover, label:hover, p:hover{
+  background-color: yellow;
+  color: forestgreen;
+}
+tr:hover{
+  background-color: yellow;
+  color: red;
+}
+a:visited{
+  color: limegreen
+}
+a{
+
+}
