@@ -1,0 +1,61 @@
+header{
+  float: left;
+  clear: both;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+}
+.navi{
+  float: left;
+  box-sizing: border-box;
+  color: blue;
+  background-color: darkgrey;
+  width: 25%;
+  text-align: center;
+}
+main{
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+  width: 100%;
+  background-color: white;
+}
+.left{
+  float: left;
+  clear: left;
+  box-sizing: border-box;
+  width: 66%;
+  background-color: lightgrey;
+}
+section{
+  float: left;
+  clear: right;
+  box-sizing: border-box;
+  width: 33%;
+  color: lightgrey;
+  background-color: black;
+}
+article{
+  float: right;
+  box-sizing: border-box;
+  width: 66%;
+}
+aside{
+  float: right;
+  box-sizing: border-box;
+  width: 33%;
+}
+footer{
+  float: left;
+  clear: both;
+  width: 100%;
+  color: darkgrey;
+}
+*{
+  margin: 0px;
+  padding: 5px;
+}
+h1, h2, h3, h4{
+  text-align: center;
+}

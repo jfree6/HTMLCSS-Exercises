@@ -1,0 +1,17 @@
+What does it mean when a file is in the stage area?
+
+Explain how to link together a local and remote repository?
+
+how do you create and move to a different branch?
+
+How do you pull or push into a repository?
+
+What is the purpose of a <!doctype> tag?
+
+What are the 3 ways to add style to an HTML webpage?
+
+Explain how to create a layout using HTML & CSS.
+
+List and explain all the selectors you remember. (include examples)
+
+How does CSS work?

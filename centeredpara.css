@@ -1,0 +1,12 @@
+.para{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+p{
+  text-align: center;
+  margin: 45%;
+  width: 10%;
+  height: auto;
+
+}

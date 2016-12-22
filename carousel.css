@@ -1,0 +1,105 @@
+body{
+  background-color: black;
+}
+@keyframes carousel {
+  0%{
+    transform: translateX(0px);
+  }
+  20%{
+    transform: translateX(0px);
+  }
+  25%{
+    transform: translateX(-800px);
+  }
+  45%{
+    transform: translateX(-800px);
+  }
+  50%{
+    transform: translateX(-1600px);
+  }
+  70%{
+    transform: translateX(-1600px);
+  }
+  75%{
+    transform: translateX(-2400px);
+  }
+  95%{
+    transform: translateX(-2400px);
+  }
+  100%{
+    transform: translateX(-3200px);
+  }
+
+}
+.outer{
+  width: 800px;
+  height:600px;
+  overflow: hidden;
+}
+.inner{
+  width: 4000px;
+  height:600px;
+  transition: all 1s;
+  /*animation: carousel 12s infinite;*/
+}
+.pic1{
+  width: 800px;
+  height:600px;
+  background-color: blue;
+  float: left;
+  background-image: url(joke.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic2{
+  width: 800px;
+  height:600px;
+  background-color: pink;
+  float: left;
+  background-image: url(joke1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic3{
+  width: 800px;
+  height:600px;
+  background-color: orange;
+  float: left;
+  background-image: url(joke.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic4{
+  width: 800px;
+  height:600px;
+  background-color: purple;
+  float: left;
+  background-image: url(joke1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#apic:checked ~ .inner{
+  transform: translateX(0px);
+  transition: all 1s;
+}
+#bpic:checked ~ .inner{
+  transform: translateX(-800px);
+  transition: all 1s;
+}
+#cpic:checked ~ .inner{
+  transform: translateX(-1600px);
+  transition: all 1s;
+}
+#dpic:checked ~ .inner{
+  transform: translateX(-2400px);
+  transition: all 1s;
+}
+.left{
+  background-color: grey;
+  opacity: .01
+
+}
